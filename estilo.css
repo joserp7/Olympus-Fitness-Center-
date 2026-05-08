@@ -1,0 +1,52 @@
+body {
+    background-color: #e0e0e0;
+    color: #1a1a1a;
+    font-family: Verdana, sans-serif;
+    margin: 30px;
+}
+
+h1 {
+    color: #000000;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2, h3 {
+    color: #222222;
+    border-bottom: 2px solid #000000;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; 
+}
+
+table {
+    background-color: #ffffff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+td, th {
+    padding: 10px;
+    text-align: center;
+}
+
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #cccccc;
+}
+
+input, textarea, select {
+    margin-bottom: 10px;
+}

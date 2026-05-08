@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registro - Olympus Fitness Center</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+    <!-- Web creada por Jose Luis Rincon Pinzon -->
+
+    <h1>Formulario de Alta de Socio</h1>
+    <p><a href="index.html">Volver a Inicio</a></p>
+
+    <form name="inscripcion" method="post" action="#">
+        
+        <p>Identificacion:</p>
+        Nombre: <input type="text" name="nombre"><br>
+        Codigo PIN de acceso: <input type="password" name="pin">
+        
+        <hr>
+
+        <p>Servicios Extra:</p>
+        Toalla <input type="checkbox" name="extra" value="toalla"><br>
+        Taquilla <input type="checkbox" name="extra" value="taquilla"><br>
+        Sauna <input type="checkbox" name="extra" value="sauna">
+        
+        <p>Tipo de Cuota:</p>
+        Mensual <input type="radio" name="cuota" value="mensual">
+        Trimestral <input type="radio" name="cuota" value="trimestral">
+        Anual <input type="radio" name="cuota" value="anual">
+        
+        <hr>
+
+        <p>Documentacion:</p>
+        Subir foto de perfil o DNI: <input type="file" name="archivo">
+        
+        <p>Actividad favorita:</p>
+        <select name="actividad">
+            <option value="spinning">Spinning</option>
+            <option value="yoga">Yoga</option>
+            <option value="zumba">Zumba</option>
+            <option value="pesas">Pesas</option>
+        </select>
+
+        <hr>
+
+        <p>Comentarios (lesiones o condicion medica):</p>
+        <textarea name="comentarios" rows="4" cols="40"></textarea>
+
+        <br><br>
+
+        <input type="submit" name="enviar" value="Enviar alta">
+        <input type="reset" name="borrar" value="Borrar datos">
+
+    </form>
+</body>
+</html>
